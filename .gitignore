@@ -1,1 +1,6 @@
 ~/middleware/node_modules/
+~/Neo4j/conf/
+~/Neo4j/data/
+~/Neo4j/import/
+~/Neo4j/logs/
+~/Neo4j/plugins/
