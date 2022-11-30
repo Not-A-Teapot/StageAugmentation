@@ -1,0 +1,21 @@
+{
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/*",
+      "build/**/*"
+    ],
+    "verbose": true,
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "events": {
+      "restart": "echo \"Middleware restarted due to:\n\n'$FILENAME'\n\""
+    },
+    "watch": [
+      "src/**/*"
+    ],
+    "env": {
+      "NODE_ENV": "development"
+    },
+    "ext": "js,json,ts"
+  }
